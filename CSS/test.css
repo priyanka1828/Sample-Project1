@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background-color: #20739c; 
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    background-color:#216486be;
+}
+d{
+    margin: 70px;
+  font-size: 60px;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    margin: 10px;
+    height: 40px;
+    width: 70px;
+    
+}
+.nav1{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+.a1{
+    color: white;
+    font-size:smaller;
+   text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+}
+.a1:hover{
+   color: black;
+}
+.nav2{
+    margin-top: 10px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+c{
+    margin: 70px;
+    font-size: 30px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#shopnow{
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 70px;
+    height: 40px;
+    width: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#find{
+    padding: 10px;
+    border: solid ;
+}
+.second{
+    height: 110vh;
+    color: white;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+}
+.im2{
+    margin-top: 40px;
+}
+.im1{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.im3{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+.im4{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+.im5{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+.offers{
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#first_i,#second_i,#third_i{
+    height: 400px;
+    width: 350px;
+}
+#first_i{
+    margin-left:30px ;
+    background-image: url(../output-onlinepngtools.png);
+    background-size: cover;
+}
+#second_i{
+    background-image: url(../output-onlinepngtools\ \(1\).png);
+    background-size: cover;
+}
+#third_i{
+    background-image: url(../output-onlinepngtools\ \(2\).png);
+    background-size: cover;
+}
+.ihead{
+    margin-left: 30px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(5, 4, 4);
+    margin-top: 240px;
+    margin-right: 30px;
+}
+.iother{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: black;
+}
+#shopnow2{
+    margin-left: 30px;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.third{
+    height: 200vh;
+}
+.feature{
+    background-color:rgb(245, 241, 236);
+   font-size: 40px;
+}
+#feap{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 80px;
+    font-size: 40px;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourth{
+    height: 75vh;
+    background-color: #2a87b5;
+    display: flex;
+    justify-content: space-between;
+}
+l{
+    font-size: 20px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sptext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 70px;
+   
+}
+sp{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.description{
+    height: 125px;
+    padding-left: 20px;
+    margin-top: 0px;
+    background-color: white; 
+}
+j1{
+    color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+j2{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+j3{
+    color:gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+j4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+j5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+j6{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-size: 12px;
+}
+j7{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: green;
+}
+s{
+    color: rgb(128, 128, 128);
+    font-size: 13px;
+}
+j8{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 12px;
+    margin-left: 7px;
+    padding: 2px;
+    background-color: rgb(197, 248, 197);
+    color: rgb(35, 188, 35);
+}
+.fifth{
+    height: 120vh;
+    background-color:rgb(246, 243, 239);
+}
+f1{
+    height: 60vh;
+    padding: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.o5{
+    width:225px ;
+}
+.f2{
+    background-color: white;
+    padding: 20px;
+    padding-left: 60px;
+    height: 60px;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.f3{
+    padding: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3px;
+   height: 45vh;
+   background-color: white;
+}
+.f31{
+    padding-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+.f32{
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.f33{
+    padding: 20px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#email{
+    border:solid 1px;
+    border-color: rgb(90, 88, 88);
+    font-size: 12px;
+    padding: 7px;
+    background-color: rgb(248, 244, 237);
+}
+#btn{
+    color: white;
+    background-color: rgb(40, 130, 219);
+    padding: 5px;
+    font-size: 10px;
+    height: 35px;
+    width: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(108, 102, 102);
+}
+.apk{
+display: flex;
+justify-content: space-evenly;
+}
+#btn:hover{
+    color: black;
+    background-color: rgb(188, 147, 232);
+}
